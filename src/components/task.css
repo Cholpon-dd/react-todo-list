@@ -1,0 +1,28 @@
+ .list-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding-bottom: 5px;
+    cursor: pointer;
+  }
+  
+.list-item span {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+.icons {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.delete-icon {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.edit-icon {
+  color: #fff;
+}

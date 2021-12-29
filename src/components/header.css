@@ -1,0 +1,30 @@
+  
+.task {
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 20px 60px 20px;
+    background: linear-gradient(to right, #80c9b8, white 10%, #80c9b8 20%);
+    background-position: 0;
+     animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    font-size: 36px;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+  }
+      
+  @keyframes shine {
+  
+    0%{
+  
+      background-position: 0;
+    }
+    60% {
+      
+      background-position: 180px;
+    }
+    100% {
+  
+      background-position: 180px;
+    }
+  }
